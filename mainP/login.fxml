@@ -13,7 +13,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="1020.0" style="-fx-background-color: #20B2AA;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainP.Login">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="1020.0" style="-fx-background-color: #20B2AA;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainP.Login">
     <children>
         <Label contentDisplay="CENTER" layoutX="686.0" layoutY="148.0" opacity="0.94" text="LOGIN" textAlignment="CENTER" textFill="#2d2d37">
             <font>
@@ -28,7 +28,7 @@
             <Blend opacity="0.0" />
          </effect>
       </ImageView>
-        <ImageView fitHeight="308.0" fitWidth="308.0" layoutX="573.0" layoutY="-79.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fitHeight="148.0" fitWidth="308.0" layoutX="633.0" layoutY="-10.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../img/hi.png" />
             </image>

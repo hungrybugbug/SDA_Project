@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.effect.ColorAdjust?>
 <?import javafx.scene.effect.DropShadow?>
@@ -50,18 +49,6 @@
                   <ImageView fitHeight="23.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../img/Blunicons/PNG/Diploma.png" />
-                     </image>
-                     <effect>
-                        <ColorAdjust brightness="1.0" />
-                     </effect>
-                  </ImageView>
-               </children>
-            </HBox>
-            <HBox alignment="CENTER" layoutX="10.0" layoutY="264.0" prefHeight="60.0" prefWidth="80.0" style="-fx-background-color: #2D2D37;">
-               <children>
-                  <ImageView fitHeight="20.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../img/Blunicons/PNG/Read.png" />
                      </image>
                      <effect>
                         <ColorAdjust brightness="1.0" />
@@ -186,8 +173,7 @@
             <DropShadow />
          </effect>
       </HBox>
-      <ComboBox id="comboBox" fx:id="comboBox" layoutX="138.0" layoutY="72.0" prefHeight="33.0" prefWidth="139.0" promptText="Select Course" style="-fx-background-color: white;" />
-      <ImageView fitHeight="181.0" fitWidth="225.0" layoutX="427.0" layoutY="-46.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="150.0" fitWidth="225.0" layoutX="427.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../img/hi.png" />
          </image>

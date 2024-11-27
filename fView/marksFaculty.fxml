@@ -165,11 +165,6 @@
       <ComboBox fx:id="comboType" layoutX="618.0" layoutY="27.0" prefHeight="33.0" prefWidth="125.0" promptText="Select Type" style="-fx-background-color: white;" />
       <HBox layoutX="125.0" layoutY="28.0">
          <children>
-            <Label fx:id="courseLabel1" graphicTextGap="8.0" prefHeight="35.0" prefWidth="119.0" text="Course Code:   " textAlignment="CENTER" textFill="#fcf9f9" wrapText="true">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Label>
             <Label fx:id="courseLabel" graphicTextGap="8.0" prefHeight="35.0" prefWidth="69.0" textAlignment="CENTER" textFill="#fcf9f9" wrapText="true">
                <font>
                   <Font size="15.0" />
@@ -179,7 +174,7 @@
       </HBox>
       <TextField id="marksField" fx:id="totalMarks" layoutX="436.0" layoutY="540.0" prefHeight="33.0" prefWidth="171.0" promptText="Total Marks" />
       <TextField fx:id="Id" layoutX="337.0" layoutY="540.0" prefHeight="33.0" prefWidth="80.0" promptText="Quiz No." />
-      <ImageView fitHeight="168.0" fitWidth="171.0" layoutX="432.0" layoutY="-49.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="94.0" fitWidth="171.0" layoutX="461.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../img/hi.png" />
          </image>

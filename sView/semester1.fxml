@@ -17,7 +17,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="573.0" prefWidth="1006.0" style="-fx-background-color: #20B2AA;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sController.Semester1">
+<AnchorPane prefHeight="573.0" prefWidth="1006.0" style="-fx-background-color: #20B2AA;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sController.Semester1">
     <children>
         <VBox layoutY="-2.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="80.0" style="-fx-background-color: #452153;">
             <children>
@@ -196,7 +196,7 @@
             <Font name="Candara Bold" size="23.0" />
          </font>
       </Label>
-      <ImageView fitHeight="218.0" fitWidth="230.0" layoutX="438.0" layoutY="-57.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="148.0" fitWidth="230.0" layoutX="457.0" layoutY="-25.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../img/hi.png" />
          </image>

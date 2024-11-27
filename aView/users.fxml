@@ -18,7 +18,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="1020.0" style="-fx-background-color: #20B2AA;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aController.users">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="1020.0" style="-fx-background-color: #20B2AA;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aController.users">
    <children>
       <VBox layoutY="-2.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="80.0" style="-fx-background-color: #452153;">
          <children>
@@ -209,7 +209,7 @@
             </Label>
          </children>
       </AnchorPane>
-      <Label layoutX="94.0" layoutY="179.0" prefHeight="32.0" prefWidth="379.0" text="* Register a USER and select its type from" textFill="WHITE">
+      <Label layoutX="94.0" layoutY="179.0" prefHeight="32.0" prefWidth="379.0" text="Register a USER and select its type from" textFill="WHITE">
          <font>
             <Font name="Corbel Bold" size="18.0" />
          </font>
@@ -222,7 +222,7 @@
       <ChoiceBox fx:id="atype" layoutX="714.0" layoutY="413.0" prefWidth="150.0" style="-fx-background-color: white;" />
       <TextField fx:id="fd_lname" layoutX="705.0" layoutY="195.0" prefHeight="35.0" prefWidth="152.0" />
       <PasswordField fx:id="fd_pass" layoutX="517.0" layoutY="410.0" prefHeight="32.0" prefWidth="173.0" />
-      <ImageView fitHeight="214.0" fitWidth="238.0" layoutX="392.0" layoutY="-40.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="155.0" fitWidth="238.0" layoutX="411.0" layoutY="-10.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../img/hi.png" />
          </image>
